@@ -64,3 +64,7 @@
    ![Giao diện trang Thêm nhà cung cấp](img/webpages/add_supplier.jpeg)
 
  <h4 align="center">Thêm nhà cung cấp</h4>
+
+ ![Giao diện trang Phân Quyền Người Dùng trong CSDL 'fabric_new' và 'db.mysql' hoặc 'user.mysql'](img/webpages/access_control.jpeg)
+
+ <h4 align="center">Phân Quyền Người Dùng</h4>
