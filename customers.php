@@ -213,5 +213,4 @@ $new_order_dir = $order_dir === 'asc' ? 'desc' : 'asc';
 
     </div>
 </body>
-
 </html>
