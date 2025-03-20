@@ -234,17 +234,19 @@ $new_order_dir = $order_dir === 'asc' ? 'desc' : 'asc';
     </div>
 
     <div id="deleteOrderModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeDeleteModal()">&times;</span>
-            <h2>Xóa Đơn Hàng</h2>
-            <form id="deleteOrderForm" method="POST">
-                <input type="hidden" name="delete_order_id" id="delete_order_id">
+    <div class="modal-content">
+        <span class="close" onclick="closeDeleteModal()">&times;</span>
+        <h2 style="text-align: center;">Xóa Đơn Hàng</h2>
+        <form id="deleteOrderForm" method="POST">
+            <input type="hidden" name="delete_order_id" id="delete_order_id">
+            <div class="cancel-reason-group">
                 <label for="cancellation_reason">Lý Do Hủy Đơn:</label>
-                <textarea name="cancellation_reason" id="cancellation_reason" rows="4" required></textarea>
-                <button type="submit">Xác Nhận</button>
-            </form>
-        </div>
+                <textarea name="cancellation_reason" id="cancellation_reason" rows="4" placeholder="Nhập lý do hủy đơn..." required></textarea>
+            </div>
+            <button type="submit" class="confirm-btn">Xác Nhận</button>
+        </form>
     </div>
+</div>
 </body>
 
 </html>

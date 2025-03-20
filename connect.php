@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost:3307'; // Thay đổi nếu cần
 $db = 'fabric_new';
-$user = 'CaRot'; // Thay đổi nếu cần
-$password = '123456';
+$user = 'root'; // Thay đổi nếu cần
+$password = '';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $password);
